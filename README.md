@@ -1,15 +1,4 @@
-# Basic Sample Hardhat Project
+# An ERC-721 (NFT) contract, using Pinata IPFS service.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+This project demonstrates a basics of creating an ERC-721 contract using Hardhat and Ethers.js library. How to use Pinata IPFS service to publish the NFT image and its metadata and link that metadata with ERC-721 contract which is deployed on Ropsten testnetwork.
+After successfully linking the contract with metadata, the user can import the created NFT into his/her metakask vallet.
